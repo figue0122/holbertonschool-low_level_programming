@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-* Main - Entry point
+* Main - print a-z
 * Return: Always 0
 */
 
