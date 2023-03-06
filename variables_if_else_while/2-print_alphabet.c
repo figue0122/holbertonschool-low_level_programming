@@ -1,15 +1,18 @@
 #include <stdio.h>
+/*
+ * Main - a-z
+ * Return: Always 0 
+ */
 
-int main()
+
+int main(void)
 {
-    char abc = 'a';
-    do
-    {
-        putchar(abc);
-        abc++;
-    }
-    while ('a' <= 'z');
-    putchar('\n');
-    return 0;
-}
 
+char abc;
+
+	for (abc = 'a'; abc <= 'z'; abc++)
+	putchar(abc);
+	putchar('\n');
+
+	return (0);
+}
