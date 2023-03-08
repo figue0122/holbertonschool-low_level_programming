@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-/*
-* main - print a-z
-* Return: Always 0
-*/
-
+/**
+ * main - print a-z
+ * Return: Always 0
+ */
 
 int main(void)
 {
 
-char az;
+	char az;
 
 	for (az = 'a'; az <= 'z'; az++)
 	putchar(az);
