@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /*
- * Main-dispay last digit
- * Return: Always 0
- */
+* Main- Display last digits
+* Return: Always 0
+*/
 
 int main(void)
 {
