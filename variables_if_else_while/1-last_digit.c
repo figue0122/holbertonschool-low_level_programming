@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
-* main - Display last digits
-* Return: Always 0
-*/
+/**
+ * main - print last digit
+ * Return: Always 0
+ */
 
 int main(void)
 {
