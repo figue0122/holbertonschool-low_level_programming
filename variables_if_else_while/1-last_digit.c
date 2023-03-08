@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
-* Main- Display last digits
+* main - Display last digits
 * Return: Always 0
 */
 
