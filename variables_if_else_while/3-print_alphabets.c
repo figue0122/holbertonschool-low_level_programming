@@ -14,8 +14,7 @@ int main(void)
 
 	for(Az = 'A'; Az <= 'Z'; Az++)
 	putchar(Az);
-
 	putchar('\n');
 
-	return (0);
+	return(0);
 }
