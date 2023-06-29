@@ -1,12 +1,12 @@
-#include "main"
+#include "main.h"
 
 /**
- * main - change pointer value
+ * Changed var value 
+ * using a pointer
  *
- * Return: Always 0.
  */
 
 void reset_to_98(int *n);
-{
+{ 
 	*n = 98;
 }
