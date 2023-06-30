@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * printed PUTCHAR
- * using putchar_
+ * Main - function putchar
+ * Return: Awalways 0
  */
 
-int main(void) {
-    printf("_putchar\n");
-    return 0;
+int main(void)
+{
+	printf("_putchar\n");
+	return (0);
 }
-
