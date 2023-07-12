@@ -4,7 +4,7 @@
  * _isalpha - funt that looks for alphabeti char
  *
  * @c: variable
- * Return: 0 
+ * Return: 0
  **/
 
 int _isalpha(int c)
