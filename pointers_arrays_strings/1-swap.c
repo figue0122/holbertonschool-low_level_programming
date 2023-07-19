@@ -3,8 +3,8 @@
 
 /**
  * Swaped var
- * @ a
- * @ b
+ * @ a: variable
+ * @ b: variable
  */
 
 void swap_int(int *a, int *b)
