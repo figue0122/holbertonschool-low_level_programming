@@ -2,15 +2,14 @@
 #include <stdio.h>
 
 /**
- * Swaped var
- * @ a: variable
- * @ b: variable
+ * swap_int - swaps the value of two integers
+ * @a: variable 1
+ * @b: variable 2
  */
 
 void swap_int(int *a, int *b)
 {
-    int temp = *a;
-    *a = *b;
-    *b = temp;
+	int temp = *a;
+	*a = *b;
+	*b = temp;
 }
-
