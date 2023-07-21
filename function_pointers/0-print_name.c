@@ -1,9 +1,10 @@
+#ifndef function_pointers_h
+#define function_pointers_h
 #include "function_pointers.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
-#ifndef function_pointers_h
-#define function_pointers_h
+
 
 /**
  * print_name - function thats prints a name
