@@ -5,7 +5,7 @@
  *array_interractor - Writes a fun that executes a func
  *@array; int
  *@action: int
- *size@ size_t
+ *@size: size_t
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
