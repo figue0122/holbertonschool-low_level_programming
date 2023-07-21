@@ -3,7 +3,7 @@
 
 /**
  *array_interractor - Writes a fun that executes a func
- *@array; int
+ *@array: int
  *@action: int
  *@size: size_t
  */
