@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stddef.h>
+#ifndef function_pointers_h
+#define function_pointers_h
 
 /**
  * print_name - function thats prints a name
@@ -22,3 +24,4 @@ void print_name(char *name, void (*f)(char *))
 		(*a)(name);
 	}
 }
+#endif
