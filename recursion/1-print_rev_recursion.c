@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion - function name
+ * _print_rev_recursion - function
  * @s: pointer
- * 
+ *
+ *
  */
 
 void _print_rev_recursion(char *s)
@@ -15,4 +16,5 @@ void _print_rev_recursion(char *s)
 
 	_print_rev_recursion(s + 1);
 	_putchar(*s);
+
 }
