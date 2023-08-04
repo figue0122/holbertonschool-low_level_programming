@@ -3,7 +3,7 @@
 /**
  * _strlen_recursion - function name
  * @s: pointer
- * Retunr: int
+ * Return: int
  */
 
 int _strlen_recursion(char *s)
