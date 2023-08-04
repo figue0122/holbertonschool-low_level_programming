@@ -3,7 +3,7 @@
 /**
  * _strspn - lenght of a prefix
  * @s: pointer
- * @accpet: pointer
+ * @accept: pointer
  * Return: char
  */
 
