@@ -1,31 +1,28 @@
-#include "calc.h"
+#include "function_pointers.h"
 #include <stdio.h>
-
 /**
- *
- *
- *
+ * main - main function for calculator
+ * @argc: number of arguments
+ * @argv: strings
+ * Return: 0
  */
 
-int main(argc, char *argv[])
-{ 		
-	int (*op_fun)(int,int);
+int main(int argc, char *argv[])
+{
+	int (*res)(int, int);
+
 	if (argc != 4)
 	{
 		printf("Error\n");
-		exit (98);
+		exit(98);
 	}
-	op_fun = get_op_func(argv[2]);
-	if (op_func == NULL)
-	{
-		printf("Error\n")
-			exit (99);
-	}
-	if ((argv[2] == atoi ('/')|| atoi(argv[2]) = atoi ('%')) && atoi argv[3] == 0)
+	res = get_op_func(argv[2]);
+
+	if (!res)
 	{
 		printf("Error\n");
-		exit (100);
+		exit(99);
 	}
-	printf("%d\n", op_func(argv[1], argv[3]));
+	printf("%d\n", res(atoi(argv[1]), atoi(argv[3])));
 	return (0);
 }
