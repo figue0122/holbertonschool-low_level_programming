@@ -1,4 +1,4 @@
-#include "function_pointers.h"
+#include "3-calc.h"
 #include <stdio.h>
 /**
  * main - main function for calculator
