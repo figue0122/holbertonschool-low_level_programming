@@ -7,7 +7,7 @@
 #include <stdarg.h>
 
 /**
- * struct lists_s - singly linked lisy
+ * struct list_s - singly linked list
  * @str: string
  * @len: len of str
  * @next: point to next move
