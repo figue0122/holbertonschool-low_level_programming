@@ -12,8 +12,8 @@
 
 typedef struct format_types
 {
-char *id;
-void (*f)(char *separator, va_list args);
+	char *id;
+	void (*f)(char *separator, va_list args);
 } f_t;
 
 int _putchar(char c);
@@ -25,5 +25,4 @@ void print_char(char *separator, va_list args);
 void print_int(char *separator, va_list args);
 void print_float(char *separator, va_list args);
 void print_pointer(char *separator, va_list args);
-
 #endif
