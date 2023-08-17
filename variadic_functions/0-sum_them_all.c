@@ -2,8 +2,8 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - function name
- * @n: const unsg int
+ * sum_them_all - function name 
+ * @n: const unsg int 
  * Return: + of parameter
  */
 
