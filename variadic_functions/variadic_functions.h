@@ -6,7 +6,7 @@
 
 /**
  * struct format_types - structure for format types
- * @identifier: 
+ * @id: identifier
  * @f: pointer function
  */
 
