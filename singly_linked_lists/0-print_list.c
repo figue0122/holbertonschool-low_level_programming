@@ -2,8 +2,8 @@
 
 /**
  * print_list - function to print ls
- * @n: struct type ->
- * Return: size_t typ value
+ * @h: struct type pointer
+ * Return: size_t type value
  */
 
 size_t print_list(const list_t *h)
