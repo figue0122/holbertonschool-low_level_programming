@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * free_list - function that frees up memory used by the list
- * @head: pointer
- * Return: nothing
+ * free_list - function that frees up memory used by lst
+ * @head: -->
+ * Return: void
  */
 
 void free_list(list_t *head)
