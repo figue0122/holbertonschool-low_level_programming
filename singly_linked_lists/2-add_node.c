@@ -2,7 +2,7 @@
 
 /**
  * add_node - function name to add a node
- * @head; array
+ * @head: array
  * @str: string
  * Return: list_t type value
  */
