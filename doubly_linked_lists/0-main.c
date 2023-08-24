@@ -31,8 +31,4 @@ int main(void)
     printf("-> %lu elements\n", n);
     free(new);
     return (EXIT_SUCCESS);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> bacbbb991c72c1a34887a4af0659b4201e1c49a7

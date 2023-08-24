@@ -35,10 +35,4 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n);
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 
 
-
-
-<<<<<<< HEAD
 #endif
-=======
-#endif
->>>>>>> bacbbb991c72c1a34887a4af0659b4201e1c49a7
