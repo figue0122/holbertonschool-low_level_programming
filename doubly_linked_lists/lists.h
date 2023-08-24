@@ -37,4 +37,8 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 
 
 
+<<<<<<< HEAD
 #endif
+=======
+#endif
+>>>>>>> bacbbb991c72c1a34887a4af0659b4201e1c49a7
