@@ -1,55 +1,78 @@
-# C-Simple Shell
+# Simple Shell Project 👾
 
-Group project for Simple Shell
+Welcome to the Simple Shell project! This shell is designed to provide basic command-line functionalities, allowing you to interact with your operating system. Whether you're executing commands, managing processes, or exploring your file system, this shell has got you covered.
 
-## Description
+## 🚀 Features
 
-The C-Simple Shell is a command line interface (CLI) program that takes commands from the keyboard and executes them using the `execve` system call. The shell supports both interactive and non-interactive modes.
+- **Command Execution**: Execute a wide range of commands available on your system.
+- **Built-in Commands**: Includes built-in commands like `cd` for directory navigation.
+- **Input/Output Redirection**: Redirect input and output for commands using '<' and '>'.
+- **Piping Support**: Chain multiple commands together using the '|' symbol.
+- **Process Management**: Run processes in the background using the '&' symbol.
+- **Interactive and Non-Interactive Modes**: Use the shell interactively or provide commands via non-interactive mode.
+- **Signal Handling**: Handles signals gracefully for better user experience.
 
-## Syntax
+## ⚙️ Getting Started
 
-To execute a command, use the following syntax:
+1. **Clone the Repository**: Begin by cloning this repository to your local machine:
 
-/bin/command & ./hsh
+   ```
+   git clone https://github.com/your-username/simple-shell.git
+   ```
+
+2. **Compile the Code**: Navigate to the project directory and compile the shell source code:
+
+   ```
+   cd simple-shell
+   gcc -o shell *.c -lm
+   ```
+
+3. **Run the Shell**: Start the shell and enjoy the command-line experience:
+
+   ```
+   ./shell
+   ```
+
+## 📚 Usage
+
+Once you have the shell up and running, try out these commands:
+
+- Execute a command:
+  ```
+  > ls -l
+  ```
+
+- Navigate directories:
+  ```
+  > cd /path/to/directory
+  ```
+
+- Redirect input from a file:
+  ```
+  > command < input.txt
+  ```
+
+- Redirect output to a file:
+  ```
+  > command > output.txt
+  ```
+
+- Run a command in the background:
+  ```
+  > command &
+  ```
+
+- Exit the shell:
+  ```
+  > exit
+  ```
+
+## 🛠️ Contributors
+
+- Carlos Carrasquillo \<collectornifty@gmail.com\>
+- Miguel Figueroa \<miguel.figueroa0122@gmail.com\>
+- Nadja Miranda \<nadeshda02@hotmail.com\>
 
 
-## Compiler
-
-Compile the program using the following command:
-
-$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                             _______
-                      _,,ad8888888888bba,_
-                   ,ad88888I888888888888888ba,
-                 ,88888888;8888""""""888888888b,
-               ,d8888888888""'         `"888888888b,
-             ,d88888PP""'                 `"88888888b,
-           ,d88"'__,,--------,,,,.;?"""?baaaa`"888888b,
-         ,8"".a8888"""''           `'"'   .;""""888888,
-       ,8'".'"'                          `"b.   `"88888b,
-     ,d".'                                 `"8.    `88"
-   ,8".'                                      `8.     `
-  ,8"                                            `8.
- ,8'                                              `8.
-,8'                                                `8.
-
+May the code be with you! 🌌👾
+Happy coding! 🚀👨‍💻👩‍💻
