@@ -1,78 +1,58 @@
-# Simple Shell Project 👾
+# C Programming Repositories
 
-Welcome to the Simple Shell project! This shell is designed to provide basic command-line functionalities, allowing you to interact with your operating system. Whether you're executing commands, managing processes, or exploring your file system, this shell has got you covered.
+## 1. argc_argv 🚀
+   - Handles command-line arguments in C.
 
-## 🚀 Features
+## 2. add ➕
+   - Simple addition program.
 
-- **Command Execution**: Execute a wide range of commands available on your system.
-- **Built-in Commands**: Includes built-in commands like `cd` for directory navigation.
-- **Input/Output Redirection**: Redirect input and output for commands using '<' and '>'.
-- **Piping Support**: Chain multiple commands together using the '|' symbol.
-- **Process Management**: Run processes in the background using the '&' symbol.
-- **Interactive and Non-Interactive Modes**: Use the shell interactively or provide commands via non-interactive mode.
-- **Signal Handling**: Handles signals gracefully for better user experience.
+## 3. doubly_linked_lists 🔗
+   - Implementation of doubly linked lists.
 
-## ⚙️ Getting Started
+## 4. file_io 📂
+   - File input/output operations.
 
-1. **Clone the Repository**: Begin by cloning this repository to your local machine:
+## 5. function_pointers 🎛️
+   - Functional calculator using function pointers.
 
-   ```
-   git clone https://github.com/your-username/simple-shell.git
-   ```
+## 6. functions_nested_loops 🔍
+   - Working with functions and nested loops.
 
-2. **Compile the Code**: Navigate to the project directory and compile the shell source code:
+## 7. hello_world 👋
+   - Classic "Hello, World!" program.
 
-   ```
-   cd simple-shell
-   gcc -o shell *.c -lm
-   ```
+## 8. makefiles 🛠️
+   - Demonstrates the use of makefiles.
 
-3. **Run the Shell**: Start the shell and enjoy the command-line experience:
+## 9. malloc_free 🧠
+   - Memory allocation and deallocation.
 
-   ```
-   ./shell
-   ```
+## 10. more_functions_nested_loops 📐
+    - Printing triangle patterns.
 
-## 📚 Usage
+## 11. pointers_arrays_strings 🔄
+    - Working with pointers, arrays, and strings.
 
-Once you have the shell up and running, try out these commands:
+## 12. recursion ♻️
+    - Recursive functions.
 
-- Execute a command:
-  ```
-  > ls -l
-  ```
+## 13. search_algorithms 🔍
+    - Implementation of search algorithms.
 
-- Navigate directories:
-  ```
-  > cd /path/to/directory
-  ```
+## 14. simple shell bench 💻
+    - Simple shell benchmarking.
 
-- Redirect input from a file:
-  ```
-  > command < input.txt
-  ```
+## 15. singly_linked_lists 📎
+    - Implementation of singly linked lists.
 
-- Redirect output to a file:
-  ```
-  > command > output.txt
-  ```
+## 16. static_libraries 📚
+    - Working with static libraries.
 
-- Run a command in the background:
-  ```
-  > command &
-  ```
+## 17. structures_typedef 🐾
+    - Handling structures and typedef in C.
 
-- Exit the shell:
-  ```
-  > exit
-  ```
+## 18. variables_if_else_while 🔄
+    - Basic C control flow structures.
 
-## 🛠️ Contributors
-
-- Carlos Carrasquillo \<collectornifty@gmail.com\>
-- Miguel Figueroa \<miguel.figueroa0122@gmail.com\>
-- Nadja Miranda \<nadeshda02@hotmail.com\>
-
-
-May the code be with you! 🌌👾
-Happy coding! 🚀👨‍💻👩‍💻
+## 19. variadic_functions 🔄
+    - Functions with a variable number of arguments.
